@@ -5,9 +5,9 @@ This repository demonstrates using Azure Workload Identity Federation with Terra
 ## 🔐 Azure Credentials
 
 **App Registration Details:**
-- Client ID: `e0eda6a5-f4f9-4cec-b609-1288b622596a`
-- Tenant ID: `1e641e6b-6848-4370-bcff-63650eecb7dd`
-- Subscription ID: `be40f85a-7ca1-48fb-bfb5-11fe1320e9a8`
+- Client ID: `abc`
+- Tenant ID: `abc`
+- Subscription ID: `abc`
 
 ## 📋 Prerequisites
 
@@ -20,9 +20,9 @@ This repository demonstrates using Azure Workload Identity Federation with Terra
 
 Go to **Settings → Secrets and variables → Actions** and add:
 
-- `AZURE_CLIENT_ID`: `e0eda6a5-f4f9-4cec-b609-1288b622596a`
-- `AZURE_TENANT_ID`: `1e641e6b-6848-4370-bcff-63650eecb7dd`
-- `AZURE_SUBSCRIPTION_ID`: `be40f85a-7ca1-48fb-bfb5-11fe1320e9a8`
+- `AZURE_CLIENT_ID`: `abc`
+- `AZURE_TENANT_ID`: `abc`
+- `AZURE_SUBSCRIPTION_ID`: `abc`
 
 ### 2. Configure Federated Credential in Azure Portal
 
