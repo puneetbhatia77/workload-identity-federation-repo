@@ -3,4 +3,4 @@
 
 location     = "East US"
 environment  = "dev"
-project_name = "myproject1"
+project_name = "myproject2"
