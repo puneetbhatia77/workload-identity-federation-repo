@@ -22,7 +22,7 @@ jobs:
   terraform:
     name: "Terraform Plan and Apply"
     runs-on: ubuntu-latest
-    environment: production # Optional: use GitHub environment for additional controls
+    # environment: production # Optional: use GitHub environment for additional controls
 
     steps:
       - name: Checkout
@@ -89,7 +89,7 @@ jobs:
     name: "Terraform Destroy"
     runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch'
-    environment: production-destroy # Require manual approval
+    # environment: production-destroy # Require manual approval
 
     steps:
       - name: Checkout
